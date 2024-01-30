@@ -39,5 +39,8 @@ dependencies {
     api "org.jetbrains.kotlinx:kotlinx-coroutines-core:$coroutines"
     api "org.jetbrains.kotlinx:kotlinx-coroutines-android:$coroutines"
 
-    api ("androidx.biometric:biometric:$biometricVersion")
+    api("androidx.biometric:biometric:$biometricVersion")
+
+    implementation "androidx.test.ext:junit-ktx:$junit_ktx"
+
 }

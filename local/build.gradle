@@ -48,6 +48,7 @@ dependencies {
 
     // Test
     testImplementation "junit:junit:$junitVersion"
+    implementation "androidx.test.ext:junit-ktx:$junit_ktx"
     // testImplementation for pure JVM unit tests
     testImplementation "org.jetbrains.kotlinx:kotlinx-coroutines-test:$coroutines"
     // Run Blocking Test
@@ -58,4 +59,5 @@ dependencies {
     testImplementation "androidx.test:runner:$testRunnerVersion"
     // Mock objects
     testImplementation "io.mockk:mockk:$mockkVersion"
+
 }
